@@ -15,7 +15,7 @@ function App() {
         <ListAll path="/" />
         <New path="/new" />
         <Edit path="/edit/:_id" />
-        <Error path="/error" default />
+        <Error path="/error" />
       </Router>
     </div>
   );
